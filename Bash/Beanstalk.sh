@@ -36,7 +36,7 @@ while true; do
 		echo "What is the name of the file you want to create"
 		read file_name
 		touch $dir_name/$file_name
-		exit 1
+	
 
 	elif [ "$user_input" -eq 2 ];
 	then
@@ -54,7 +54,7 @@ while true; do
 	elif [ "$user_input" -eq 4 ];
 	then
 		echo "Exiting script"
-		exit 1
+		exit 0
 	else
 		echo "Wrong Input"
 		echo "Try again"
